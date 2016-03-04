@@ -36,8 +36,8 @@ This is a fairly open-ended assignment. The goal is to create a command line too
 * Fork and clone this repository. 
 * Go to the site and figure out how you (as a human) would access this data
 * Open the console in the browser and use inspect element and `document.querySelector` to find the elements you want to access
-* Copy the url and use `wget` to download a test file of data
-* Use `open-uri` and `nokogiri` to get the data you need from the html (using the query selectors you already tested in the browser)
+* Copy the url and use `curl` to download a test file of data
+* Use `nokogiri` to get the data you need from the HTML (using the query selectors you already tested in the browser)
 * Use `rest-client` to load a live url
 * Use `gets.chomp` or `ARGV` to take input
 * Create an alias to make the CLI tool easy to use (optional)
